@@ -150,3 +150,18 @@ input[type=file]::-webkit-file-upload-button {
     @include button();
     @include button-variant($secondary);
 }
+
+#debug-button {
+    color: $text-color;
+    border-top: 1px solid $content-box-border-color;
+    border-left: 1px solid $content-box-border-color;
+    border-top-left-radius: 4px;
+    background: $content-box-background-color;
+    cursor: pointer;
+    padding: 2px 8px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-decoration: none;
+    z-index: 10;
+}
