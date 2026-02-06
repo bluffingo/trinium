@@ -11,14 +11,18 @@
     }
 
     .profile-picture {
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
     }
 
     .comment-body {
         flex: 1;
 
         .comment-author {
+            display: flex;
+            align-items: center;
+            gap: 0.25em;
+            
             .comment-timestamp {
                 color: $text-color;
                 opacity: 50%;
@@ -27,10 +31,10 @@
         }
 
         .comment-contents {
-            margin-top: 0.25em;
+            //margin-top: 0.25em;
 
             p {
-                margin: 0.5em 0;
+                margin: 0.25em 0;
 
                 &:first-child {
                     margin-top: 0;
@@ -54,8 +58,8 @@
         border: none;
 
         .profile-picture {
-            width: 35px;
-            height: 35px;
+            width: 32px;
+            height: 32px;
         }
     }
 }
@@ -86,15 +90,17 @@
     }
 
     .profile-picture {
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
     }
 
-    #comment_button,
+    /*
+    #comment_post_button,
     .submit-reply-button {
         margin-left: auto;
         display: block;
     }
+    */
 }
 
 .reply-form {
@@ -115,7 +121,16 @@
     flex: 1;
 }
 
-#new-comment-logged-out {
+.new-comment-bottom {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.comment-form-error {
+    flex-grow: 1;
+}
+
+#new-comment-button {
     background: $form-bg-color;
     color: $form-text-color;
     border: 1px solid $form-border-color;
@@ -125,4 +140,9 @@
     cursor: pointer;
 
     flex: 1; // webkit hack
+}
+
+.new-comment-buttons {
+    display: flex;
+    gap: 0.2em;
 }

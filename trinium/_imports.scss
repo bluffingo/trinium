@@ -223,11 +223,13 @@ dialog {
         flex-wrap: wrap;
         column-gap: 0.5ch;
         align-items: center;
+        font-weight: bold;
 
         .userlink-handle {
             color: $text-color;
             opacity: 50%;
             text-decoration: none;
+            font-weight: normal;
         }
     }
 }

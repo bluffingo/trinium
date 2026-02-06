@@ -19,16 +19,16 @@
 
             &:hover {
                 @if $color-scheme =="dark" {
-                    background-color: rgba(color.adjust($bg-color, $lightness: 2.5%), 50%);
+                    background-color: rgba(color.adjust($bg-color, $lightness: 2.5%), 25%);
                 }
 
                 @else {
-                    background-color: rgba(color.adjust($bg-color, $lightness: -3.5%), 10%);
+                    background-color: rgba(color.adjust($bg-color, $lightness: -3.5%), 25%);
                 }
             }
 
             &:active {
-                background-color: rgba(red, 20%);
+                background-color: rgba($bg-color, 50%);
             }
 
             &.active {
