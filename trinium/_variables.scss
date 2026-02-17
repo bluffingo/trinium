@@ -75,14 +75,13 @@ $font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     $font: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-// https://medium.com/@jainbhavukspeaks/leveraging-scss-mixins-to-create-responsive-layouts-the-easy-way-5bbe4080cb15
 // breakpoints
 $breakpoints: (
-    "tiny": 300px,
-    "small": 500px,
-    "medium": 950px,
-    "large": 1250px,
-    "huge": 1700px,
+    "tiny": 0px,
+    "small": 768px,
+    "medium": 1024px,
+    "large": 1280px,
+    "huge": 1600px,
 );
 
 // header
@@ -98,4 +97,4 @@ $menu-item-padding: 0.5em 1em;
 
 // sidebar
 $sidebar-width-medium: 180px;
-$sidebar-width-large: 250px;
+$sidebar-width-large: 240px;

@@ -27,6 +27,7 @@
 :root {
     font-family: $font;
     --link-color: #{$link-color};
+    -webkit-tap-highlight-color: #0000;
 
     @each $color, $value in $color-map {
         --#{$color}: #{$value};

@@ -11,35 +11,28 @@
 
 @mixin maxwidths() {
   width: 100%;
-  max-width: 100%;
+  margin-inline: auto;
+
+  padding: 0 1em;
 
   @include responsive('tiny') {
-    max-width: 100%;
-    min-width: 270px;
-    padding: 0 1rem;
+    max-width: 95%;
   }
 
   @include responsive('small') {
-    max-width: 95%;
-    min-width: 420px;
-    padding: 0 1rem;
+    max-width: 752px;
+    padding: 0;
   }
 
   @include responsive('medium') {
-    max-width: 90%;
-    min-width: 640px;
-    padding: 0;
+    max-width: 960px;
   }
 
   @include responsive('large') {
-    max-width: 87.5%;
-    min-width: 1200px;
-    padding: 0;
+    max-width: 1152px;
   }
 
   @include responsive('huge') {
-    max-width: 82.5%;
-    min-width: 1500px;
-    padding: 0;
+    max-width: 1440px;
   }
 }
