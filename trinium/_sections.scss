@@ -9,7 +9,7 @@
 
             li {
                 display: inline-block;
-                font-size: 1.33em;
+                font-size: $font-size-huge;
                 color: $text-color;
                 font-weight: 600;
 
@@ -22,7 +22,7 @@
                         font-weight: normal;
                         display: inline-block;
                         content: ">";
-                        font-size: 0.8em;
+                        font-size: $font-size-smaller;
                         padding: 0 3px 0 6px;
                     }
                 }

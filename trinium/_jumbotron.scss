@@ -25,18 +25,18 @@
         }
 
         h1 {
-            font-size: 1.33rem;
+            font-size: $font-size-huge;
 
             @include responsive('tiny') {
-                font-size: 1rem;
+                font-size: $font-size-big;
             }
 
             @include responsive('small') {
-                font-size: 1.25rem;
+                font-size: $font-size-bigger;
             }
 
             @include responsive('medium') {
-                font-size: 1.33rem;
+                font-size: $font-size-huge;
             }
         }
 

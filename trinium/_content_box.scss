@@ -201,14 +201,14 @@
             flex-grow: 1;
 
             .content-title {
-                font-size: 1em;
+                font-size: $font-size-normal;
                 font-weight: 700;
             }
 
             .content-title-upload {
                 .content-title-link {
                     flex-grow: 1;
-                    font-size: 1em;
+                    font-size: $font-size-normal;
                 }
 
                 .content-rating {
@@ -225,7 +225,7 @@
             }
 
             .content-author, .content-detail, .content-description {
-                font-size: 0.8em;
+                font-size: $font-size-smaller;
             }
 
             .content-description {
@@ -257,7 +257,7 @@
 
                     height: 18px;
                     padding: 0 2px;
-                    font-size: 0.9em;
+                    font-size: $font-size-small;
 
                     color: white;
 

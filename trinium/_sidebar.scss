@@ -146,12 +146,12 @@
             @if $theme == "default" {
                 color: rgba($header-link-color, 66%);
                 text-transform: uppercase;
-                font-size: 0.8em;
+                font-size: $font-size-smaller;
                 font-weight: 700;
             }
 
             @else {
-                font-size: 0.9em;
+                font-size: $font-size-small;
             }
         }
 

@@ -33,7 +33,7 @@
             .post-timestamp {
                 color: $text-color;
                 opacity: 50%;
-                font-size: 0.8em;
+                font-size: $font-size-smaller;
             }
         }
 
@@ -119,7 +119,7 @@
 }
 
 .action-button {
-    font-size: 0.8em;
+    font-size: $font-size-smaller;
     cursor: pointer;
 }
 

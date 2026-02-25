@@ -1,9 +1,6 @@
 // yes starting with dart-sass 1.79/1.80 shits getting deprecated!
 
 @use "sass:color";
-
-//@import url("https://rsms.me/inter/inter.css");
-
 // caveat is used by the "its free!" text on logged out jumbotron
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
@@ -78,37 +75,37 @@ $header-weight: 600;
 
 h1 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: $font-size-h1;
     font-weight: $header-weight;
 }
 
 h2 {
     margin: 0;
-    font-size: 1.25em;
+    font-size: $font-size-h2;
     font-weight: $header-weight;
 }
 
 h3 {
     margin: 0;
-    font-size: 1em;
+    font-size: $font-size-h3;
     font-weight: $header-weight;
 }
 
 h4 {
     margin: 0;
-    font-size: 0.875em;
+    font-size: $font-size-h4;
     font-weight: $header-weight;
 }
 
 h5 {
     margin: 0;
-    font-size: 0.75em;
+    font-size: $font-size-h5;
     font-weight: $header-weight;
 }
 
 h6 {
     margin: 0;
-    font-size: 0.625em;
+    font-size: $font-size-h6;
     font-weight: $header-weight;
 }
 
@@ -296,7 +293,7 @@ ul.unstyled-list {
 @import 'tooltips';
 
 @import 'admin_page';
-@import 'change_theme_page';
+@import 'theme_page';
 @import 'login_register_page';
 @import 'profile_page';
 @import 'setting_page';

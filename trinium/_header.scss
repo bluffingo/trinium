@@ -326,13 +326,13 @@
 
             .user-menu-intro-name {
                 font-weight: 600;
-                font-size: 1.1em;
+                font-size: $font-size-big;
                 text-overflow: ellipsis;
                 overflow: hidden;
             }
 
             .user-menu-intro-stat {
-                font-size: 0.9em;
+                font-size: $font-size-small;
                 text-overflow: ellipsis;
                 overflow: hidden;
             }

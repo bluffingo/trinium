@@ -2,7 +2,7 @@
 .tooltip {
     position: fixed;
     padding: 4px 8px;
-    font-size: 0.9em;
+    font-size: $font-size-small;
     border-radius: 4px;
     white-space: nowrap;
     pointer-events: none;

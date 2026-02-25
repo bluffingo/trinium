@@ -32,7 +32,7 @@
         }
 
         .watch-box-below-title {
-            font-size: 0.9em;
+            font-size: $font-size-small;
 
             .watch-box-below-title-featured {
                 @if $theme == "flat" {
@@ -51,7 +51,7 @@
         word-wrap: break-word;
 
         .watch-box-description-info-small {
-            font-size: 0.9em;
+            font-size: $font-size-small;
         }
     }
 
@@ -63,11 +63,11 @@
             text-align: right;
 
             .watch-box-views {
-                font-size: 1.25em;
+                font-size: $font-size-bigger;
             }
 
             .watch-box-ratings-number {
-                font-size: 0.8em;
+                font-size: $font-size-smaller;
                 opacity: 50%;
             }
         }
@@ -86,15 +86,15 @@
 
             .watch-box-author {
                 .watch-box-author-userlink {
-                    font-size: 1em;
+                    font-size: $font-size-normal;
                 }
 
                 #follower_count {
-                    font-size: 0.9em;
+                    font-size: $font-size-small;
                 }
 
                 .watch-box-followers-logged-out {
-                    font-size: 0.8em;
+                    font-size: $font-size-smaller;
                 }
 
                 .watch-box-followers-logged-out {

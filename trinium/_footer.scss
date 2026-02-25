@@ -4,7 +4,7 @@
 
     .footer-container {
         .footer-powered-by {
-            font-size: 1em;
+            font-size: $font-size-normal;
         }
 
         .footer-links {
@@ -13,11 +13,11 @@
             column-gap: 0.5em;
             flex-wrap: wrap;
 
-            font-size: 0.9em;
+            font-size: $font-size-small;
         }
 
         .footer-copyright {
-            font-size: 0.9em;
+            font-size: $font-size-small;
             opacity: 50%;
         }
 

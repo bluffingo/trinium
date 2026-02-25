@@ -21,11 +21,11 @@ body.login {
 }
 
 .login-text {
-    font-size: 0.9em;
+    font-size: $font-size-small;
 
     &.login-footer {
         margin: 0.8em 0 0 0;
-        font-size: 0.9em;
+        font-size: $font-size-small;
         text-align: center;
         text-shadow: 0 0.1em 0.25em rgba(black, 0.75);
         color: white;
@@ -90,7 +90,7 @@ body.login {
     }
 
     .login-currently-logged-in-other-accs {
-        font-size: 0.9em;
+        font-size: $font-size-small;
     }
 
     .login-pfp {

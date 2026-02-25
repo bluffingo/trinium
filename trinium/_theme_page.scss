@@ -11,23 +11,21 @@
 }
 
 #skinName {
-    font-size: 1.25em;
+    font-size: $font-size-bigger;
 }
 
 #skinAuthor {
-    font-style: italic;
-    font-size: 0.85em;
+    font-size: $font-size-smaller;
     opacity: 0.5;
 
     margin-bottom: 1em;
 }
 
 #themeName {
-    font-size: 1.1em;
+    font-size: $font-size-big;
 }
 
 #themeAuthor {
-    font-style: italic;
-    font-size: 0.85em;
+    font-size: $font-size-smaller;
     opacity: 0.5;
 }
