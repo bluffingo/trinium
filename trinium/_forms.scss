@@ -55,7 +55,7 @@ input[type="checkbox"] {
 }
 
 $select-background-color: linear-gradient(to bottom, 
-    $content-box-background-color 0, 
+    color.adjust($content-box-background-color, $lightness: -1%) 0, 
     color.adjust($content-box-background-color, $lightness: -5%) 100%
 );
 $select-border-color: color.adjust($content-box-border-color, $lightness: -7.5%);
@@ -103,7 +103,7 @@ select {
     
     border: 1px solid $select-border-color;
     border-radius: 4px;
-    padding: 0 1.25em 0 0.75em;
+    padding: 0 2em 0 0.75em;
     height: 32px;
     font: inherit;
     color: inherit;
@@ -128,6 +128,7 @@ select {
         display: flex;
         column-gap: 0.333em;
         flex-wrap: wrap;
+        margin-bottom: 0.25em;
 
         span {
             opacity: 50%;
