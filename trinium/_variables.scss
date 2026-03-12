@@ -46,7 +46,7 @@ $bg-color: #F2F2F2;
 @if $color-scheme == "dark" {
     $text-color: white;
     $link-color: #2d89e8;
-    $bg-color: #050505;
+    $bg-color: #111;
 
     @if $theme == "flat" {
         $bg-color: #010103;
@@ -62,7 +62,7 @@ $content-box-border-color: #E0E0E0;
 }
 
 @if $color-scheme == "dark" {
-    $content-box-background-color: #010101;
+    $content-box-background-color: #090909;
     $content-box-border-color: #222222;
 
     @if $theme == "flat" {
@@ -106,11 +106,11 @@ $color-map: (
 );
 
 // header/sidebar
-$header-background: linear-gradient(to bottom, #333333, #151515);
+$header-background: linear-gradient(to bottom, #222222, #151515);
 $header-border: #111111;
 $header-color: white;
 
-$subheader-background: linear-gradient(to bottom, #222, #151515);
+$subheader-background: linear-gradient(to bottom, #1a1a1a, #111);
 
 $mobile-sidebar-background: #191919;
 $mobile-sidebar-border: #111111;
