@@ -46,7 +46,7 @@ $bg-color: #F2F2F2;
 @if $color-scheme == "dark" {
     $text-color: white;
     $link-color: #2d89e8;
-    $bg-color: #111;
+    $bg-color: #0a0a0a;
 
     @if $theme == "flat" {
         $bg-color: #010103;
@@ -63,7 +63,7 @@ $content-box-border-color: #E0E0E0;
 
 @if $color-scheme == "dark" {
     $content-box-background-color: #090909;
-    $content-box-border-color: #222222;
+    $content-box-border-color: #2a2a2a;
 
     @if $theme == "flat" {
         $content-box-background-color: #010103;

@@ -150,6 +150,7 @@
     transition: max-height 0.66s cubic-bezier(.23,1,.32,1);
 
     .profile-edit {
+        margin-top: 1em;
         @include maxwidths();
     }
 }

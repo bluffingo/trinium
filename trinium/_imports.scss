@@ -238,6 +238,12 @@ dialog {
             text-decoration: none;
             font-weight: normal;
         }
+
+        &:hover {
+            .userlink-name {
+                text-decoration: underline;
+            }
+        }
     }
 }
 
